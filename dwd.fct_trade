@@ -1,0 +1,15 @@
+erDiagram
+  DWD_FCT_TRADE {
+    string  exchange
+    string  account_id
+    string  instrument_id
+    enum    side
+    float   qty
+    float   price
+    float   fee
+    string  fee_asset
+    string  trade_id
+    string  order_id
+    datetime event_time
+    uint    version
+  }
